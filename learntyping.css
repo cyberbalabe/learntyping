@@ -1,0 +1,40 @@
+.blueLetter {
+    background: lightskyblue;
+}
+
+.redLetter {
+    background: lightcoral;
+}
+h1 {
+    min-height: 120px;
+    white-space: pre-wrap;
+    word-spacing: 1.1rem;
+}
+
+textarea {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+    color: #4CAF50;
+    word-spacing: 6px;
+}
+
+body {
+     background-color: azure;
+}
+
+#confeti {
+    position:absolute;
+} 
+    
+
+#confettiButton {
+    /* z-index: 2; */
+    position: relative;
+}
+
+
+
+
