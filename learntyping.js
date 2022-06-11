@@ -37,9 +37,9 @@ childsInput.addEventListener('input', (el) => {
     }
     
     if(childsInputLetter.toUpperCase() === parentLetter.innerHTML){
-      parentLetter.classList.add("redLetter") 
+      parentLetter.classList.add("yellowLetter") 
     } else{
-      parentLetter.classList.add("blueLetter")
+      parentLetter.classList.add("redLetter")
     }
 
     changedElements.push(parentLetter)
@@ -53,8 +53,8 @@ childsInput.addEventListener('input', (el) => {
   let writtenByParentsLetters = Array.from(writtenByParents.children)
   writtenByParentsLetters.forEach((el) => {
     if (!changedElements.includes(el)) {
+      el.classList.remove('yellowLetter');
       el.classList.remove('redLetter');
-      el.classList.remove('blueLetter');
     }
   })
 })
