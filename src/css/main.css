@@ -3,26 +3,46 @@
 }
 
 .redLetter {
-    background: lightcoral;
+    background: #FFF5EE;
+}
+
+#writtenByParents {
+    border-color:  #FF1493!important;
+}
+
+#writtenByKid {
+    border-color: #9370DB!important;
 }
 h1 {
+    background-color: white;
     min-height: 120px;
     white-space: pre-wrap;
     word-spacing: 1.1rem;
+    border-radius: 10px;
 }
 
 textarea {
     width: 100%;
+    border-radius: 10px;
+    background: #FFFAF0;
 }
 
 p {
+    margin-top: 30px;
+    font-family: "Courier New", Courier, monospace;
     text-align: center;
-    color: #4CAF50;
+    color: purple;
     word-spacing: 6px;
+    font-weight: bold;
 }
 
 body {
-     background-color: azure;
+    background: #F0FFFF;
+    background-image: url("../images/a.jpg");
+}
+#allTables {
+    margin-left: 120px!important;
+    margin-right: 120px!important;
 }
 
 #confeti {

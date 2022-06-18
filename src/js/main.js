@@ -1,9 +1,27 @@
+import ConfettiGenerator from 'confetti-js'
+import Swal from 'sweetalert2'
+import treesImage from '../images/trees.png'
+//import booksBackground from '../images/booksBackground.png'
+import nyanCat from '../images/nyan-cat.gif'
+import cakeImage from '../images/cake.gif'
+import dancingBoy from '../images/dancingBoy.gif'
+import typingCats from '../images/typingCats.gif'
+
 let parentsInput = document.getElementById('parentsInput')
 let button = document.getElementById('button')
 let writtenByParents = document.getElementById('writtenByParents')
 
 let writtenByKid = document.querySelector('#writtenByKid')
 let childsInput = document.querySelector('#childsInput')
+let congratulationsArray = [
+  'LIUKS! :)',
+  'KAIP GERAI RAŠAI! ;)',
+  'PUIKUMĖLIS! ;)',
+  'DUOK PENKIS! ;)',
+  'TIRLI PIRLI KAIP ŠAUNU!',
+  'TAIP IR TOLIAU, BROLYTI;)'
+]
+let gifArray = [nyanCat, cakeImage, dancingBoy, typingCats]
 
 let confettiElement = document.getElementById('confeti')
 let confettiSettings = {
@@ -16,7 +34,7 @@ const isMobileUser = () => {
   return screen.width <= 640
 }
 
-if (isMobileUser()){
+if (isMobileUser()) {
   Swal.fire({
     title: 'Pardon!',
     text: 'if you want continue open your computer',
@@ -26,10 +44,7 @@ if (isMobileUser()){
     allowEscapeKey: false,
     allowEnterKey: false
   })
-  
 }
-
-
 
 pushMe.addEventListener('click', () => {
   populateWrittenByParents()
@@ -65,6 +80,26 @@ childsInput.addEventListener('input', (el) => {
   if (parentsInput.value === childsInput.value) {
     confetti = new ConfettiGenerator(confettiSettings)
     confetti.render()
+
+    let randomPopupIndex = Math.floor(Math.random() * congratulationsArray.length)
+    let randomGifIndex = Math.floor(Math.random() * gifArray.length)
+
+    Swal.fire({
+      title: congratulationsArray[randomPopupIndex],
+      width: 600,
+      padding: '3em',
+      color: '#716add',
+      background: `#fff url(${treesImage})`,
+      backdrop: `
+        rgba(0,0,123,0.4)
+        url(${gifArray[randomGifIndex]})
+        left top
+        no-repeat
+      `
+    }).then((result) => {
+      confetti.clear()
+      confettiElement.height = 0
+    })
   }
 
   let writtenByParentsLetters = Array.from(writtenByParents.children)
@@ -74,11 +109,6 @@ childsInput.addEventListener('input', (el) => {
       el.classList.remove('redLetter')
     }
   })
-})
-
-confettiButton.addEventListener('click', () => {
-  confetti.clear()
-  confettiElement.height = 0
 })
 
 const populateWrittenByParents = () => {
@@ -93,3 +123,11 @@ const populateWrittenByParents = () => {
   writtenByParents.innerHTML = string
   childsInput.focus()
 }
+
+clearInputsButton.addEventListener('click', () => {
+  childsInput.value = ''
+  parentsInput.value = ''
+  writtenByKid.innerHTML = ''
+  writtenByParents.innerHTML = ''
+  parentsInput.focus()
+})

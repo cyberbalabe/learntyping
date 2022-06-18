@@ -687,7 +687,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".yellowLetter {\\n    background: yellow;\\n}\\n\\n.redLetter {\\n    background: lightcoral;\\n}\\nh1 {\\n    min-height: 120px;\\n    white-space: pre-wrap;\\n    word-spacing: 1.1rem;\\n}\\n\\ntextarea {\\n    width: 100%;\\n}\\n\\np {\\n    text-align: center;\\n    color: #4CAF50;\\n    word-spacing: 6px;\\n}\\n\\nbody {\\n     background-color: azure;\\n}\\n\\n#confeti {\\n    position:absolute;\\n} \\n    \\n\\n#confettiButton {\\n    /* z-index: 2; */\\n    position: relative;\\n}\\n\\n\\n\\n\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://learn-typing/./src/css/main.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../images/a.jpg */ \"./src/images/a.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".yellowLetter {\\n    background: yellow;\\n}\\n\\n.redLetter {\\n    background: #FFF5EE;\\n}\\n\\n#writtenByParents {\\n    border-color:  #FF1493!important;\\n}\\n\\n#writtenByKid {\\n    border-color: #9370DB!important;\\n}\\nh1 {\\n    background-color: white;\\n    min-height: 120px;\\n    white-space: pre-wrap;\\n    word-spacing: 1.1rem;\\n    border-radius: 10px;\\n}\\n\\ntextarea {\\n    width: 100%;\\n    border-radius: 10px;\\n    background: #FFFAF0;\\n}\\n\\np {\\n    margin-top: 30px;\\n    font-family: \\\"Courier New\\\", Courier, monospace;\\n    text-align: center;\\n    color: purple;\\n    word-spacing: 6px;\\n    font-weight: bold;\\n}\\n\\nbody {\\n    background: #F0FFFF;\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n}\\n#allTables {\\n    margin-left: 120px!important;\\n    margin-right: 120px!important;\\n}\\n\\n#confeti {\\n    position:absolute;\\n} \\n    \\n\\n#confettiButton {\\n    /* z-index: 2; */\\n    position: relative;\\n}\\n\\n\\n\\n\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://learn-typing/./src/css/main.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -721,6 +721,61 @@ eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    opt
 
 "use strict";
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://learn-typing/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/images/cake.gif":
+/*!*****************************!*\
+  !*** ./src/images/cake.gif ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"062905410a9cbd9472b341b4bde82874.gif\");\n\n//# sourceURL=webpack://learn-typing/./src/images/cake.gif?");
+
+/***/ }),
+
+/***/ "./src/images/dancingBoy.gif":
+/*!***********************************!*\
+  !*** ./src/images/dancingBoy.gif ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"9bc328bbd7fb5ffc483c54468a860d51.gif\");\n\n//# sourceURL=webpack://learn-typing/./src/images/dancingBoy.gif?");
+
+/***/ }),
+
+/***/ "./src/images/nyan-cat.gif":
+/*!*********************************!*\
+  !*** ./src/images/nyan-cat.gif ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"5d62e940e9dec584a8b10895defaadb1.gif\");\n\n//# sourceURL=webpack://learn-typing/./src/images/nyan-cat.gif?");
+
+/***/ }),
+
+/***/ "./src/images/trees.png":
+/*!******************************!*\
+  !*** ./src/images/trees.png ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"de38bab5c44bdbf7813b94f363957923.png\");\n\n//# sourceURL=webpack://learn-typing/./src/images/trees.png?");
+
+/***/ }),
+
+/***/ "./src/images/typingCats.gif":
+/*!***********************************!*\
+  !*** ./src/images/typingCats.gif ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"a52daf60054941711a4ab062f05b6b1c.gif\");\n\n//# sourceURL=webpack://learn-typing/./src/images/typingCats.gif?");
 
 /***/ }),
 
@@ -839,7 +894,7 @@ eval("//css\n__webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ \".
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var confetti_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! confetti-js */ \"./node_modules/confetti-js/dist/index.es.js\");\n/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! sweetalert2 */ \"./node_modules/sweetalert2/dist/sweetalert2.all.js\");\n/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n\n\nlet parentsInput = document.getElementById('parentsInput')\nlet button = document.getElementById('button')\nlet writtenByParents = document.getElementById('writtenByParents')\n\nlet writtenByKid = document.querySelector('#writtenByKid')\nlet childsInput = document.querySelector('#childsInput')\n\n\nlet confettiElement = document.getElementById('confeti')\nlet confettiSettings = {\n  target: confettiElement,\n  max: 500\n}\nlet confetti = new confetti_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"](confettiSettings)\n\nconst isMobileUser = () => {\n  return screen.width <= 640\n}\n\nif (isMobileUser()){\n  sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire({\n    title: 'Pardon!',\n    text: 'if you want continue open your computer',\n    icon: 'error',\n    showConfirmButton: false,\n    allowOutsideClick: false,\n    allowEscapeKey: false,\n    allowEnterKey: false\n  })\n  \n}\n\n\n\npushMe.addEventListener('click', () => {\n  populateWrittenByParents()\n})\n\nparentsInput.addEventListener('input', (el) => {\n  el.target.value = el.target.value.toUpperCase()\n})\n\nchildsInput.addEventListener('input', (el) => {\n  el.target.value = el.target.value.toUpperCase()\n  writtenByKid.innerHTML = childsInput.value.toUpperCase()\n  let childsInputArray = childsInput.value.split('')\n  let changedElements = []\n\n  childsInputArray.forEach(function (childsInputLetter, index) {\n    let elementId = `parentInput${index}`\n    let parentLetter = document.getElementById(elementId)\n\n    if (parentLetter === null) {\n      return\n    }\n\n    if (childsInputLetter.toUpperCase() === parentLetter.innerHTML) {\n      parentLetter.classList.add('yellowLetter')\n    } else {\n      parentLetter.classList.add('redLetter')\n    }\n\n    changedElements.push(parentLetter)\n  })\n\n  if (parentsInput.value === childsInput.value) {\n    confetti = new confetti_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"](confettiSettings)\n    confetti.render()\n  }\n\n  let writtenByParentsLetters = Array.from(writtenByParents.children)\n  writtenByParentsLetters.forEach((el) => {\n    if (!changedElements.includes(el)) {\n      el.classList.remove('yellowLetter')\n      el.classList.remove('redLetter')\n    }\n  })\n})\n\nconfettiButton.addEventListener('click', () => {\n  confetti.clear()\n  confettiElement.height = 0\n})\n\nconst populateWrittenByParents = () => {\n  parentsInput.value = parentsInput.value.trim()\n  let array = parentsInput.value.trim().split('')\n  let string = ''\n  childsInput.value = ''\n  childsInput.dispatchEvent(new Event('input'))\n  array.forEach(function (letter, index) {\n    string = string + `<span id=parentInput${index}>${letter.toUpperCase()}</span>`\n  })\n  writtenByParents.innerHTML = string\n  childsInput.focus()\n}\n\n\n//# sourceURL=webpack://learn-typing/./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var confetti_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! confetti-js */ \"./node_modules/confetti-js/dist/index.es.js\");\n/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! sweetalert2 */ \"./node_modules/sweetalert2/dist/sweetalert2.all.js\");\n/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _images_trees_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/trees.png */ \"./src/images/trees.png\");\n/* harmony import */ var _images_nyan_cat_gif__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/nyan-cat.gif */ \"./src/images/nyan-cat.gif\");\n/* harmony import */ var _images_cake_gif__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/cake.gif */ \"./src/images/cake.gif\");\n/* harmony import */ var _images_dancingBoy_gif__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/dancingBoy.gif */ \"./src/images/dancingBoy.gif\");\n/* harmony import */ var _images_typingCats_gif__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/typingCats.gif */ \"./src/images/typingCats.gif\");\n\n\n\n//import booksBackground from '../images/booksBackground.png'\n\n\n\n\n\nlet parentsInput = document.getElementById('parentsInput')\nlet button = document.getElementById('button')\nlet writtenByParents = document.getElementById('writtenByParents')\n\nlet writtenByKid = document.querySelector('#writtenByKid')\nlet childsInput = document.querySelector('#childsInput')\nlet congratulationsArray = [\n  'LIUKS! :)',\n  'KAIP GERAI RAŠAI! ;)',\n  'PUIKUMĖLIS! ;)',\n  'DUOK PENKIS! ;)',\n  'TIRLI PIRLI KAIP ŠAUNU!',\n  'TAIP IR TOLIAU, BROLYTI;)'\n]\nlet gifArray = [_images_nyan_cat_gif__WEBPACK_IMPORTED_MODULE_3__[\"default\"], _images_cake_gif__WEBPACK_IMPORTED_MODULE_4__[\"default\"], _images_dancingBoy_gif__WEBPACK_IMPORTED_MODULE_5__[\"default\"], _images_typingCats_gif__WEBPACK_IMPORTED_MODULE_6__[\"default\"]]\n\nlet confettiElement = document.getElementById('confeti')\nlet confettiSettings = {\n  target: confettiElement,\n  max: 500\n}\nlet confetti = new confetti_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"](confettiSettings)\n\nconst isMobileUser = () => {\n  return screen.width <= 640\n}\n\nif (isMobileUser()) {\n  sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire({\n    title: 'Pardon!',\n    text: 'if you want continue open your computer',\n    icon: 'error',\n    showConfirmButton: false,\n    allowOutsideClick: false,\n    allowEscapeKey: false,\n    allowEnterKey: false\n  })\n}\n\npushMe.addEventListener('click', () => {\n  populateWrittenByParents()\n})\n\n\nparentsInput.addEventListener('input', (el) => {\n  el.target.value = el.target.value.toUpperCase()\n})\n\nchildsInput.addEventListener('input', (el) => {\n  el.target.value = el.target.value.toUpperCase()\n  writtenByKid.innerHTML = childsInput.value.toUpperCase()\n  let childsInputArray = childsInput.value.split('')\n  let changedElements = []\n\n  childsInputArray.forEach(function (childsInputLetter, index) {\n    let elementId = `parentInput${index}`\n    let parentLetter = document.getElementById(elementId)\n\n    if (parentLetter === null) {\n      return\n    }\n\n    if (childsInputLetter.toUpperCase() === parentLetter.innerHTML) {\n      parentLetter.classList.add('yellowLetter')\n    } else {\n      parentLetter.classList.add('redLetter')\n    }\n\n    changedElements.push(parentLetter)\n  })\n\n  if (parentsInput.value === childsInput.value) {\n    confetti = new confetti_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"](confettiSettings)\n    confetti.render()\n\n    let randomPopupIndex = Math.floor(Math.random() * congratulationsArray.length)\n    let randomGifIndex = Math.floor(Math.random() * gifArray.length)\n\n    sweetalert2__WEBPACK_IMPORTED_MODULE_1___default().fire({\n      title: congratulationsArray[randomPopupIndex],\n      width: 600,\n      padding: '3em',\n      color: '#716add',\n      background: `#fff url(${_images_trees_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"]})`,\n      backdrop: `\n        rgba(0,0,123,0.4)\n        url(${gifArray[randomGifIndex]})\n        left top\n        no-repeat\n      `\n    }).then((result) => {\n      confetti.clear()\n      confettiElement.height = 0\n    })\n  }\n\n  let writtenByParentsLetters = Array.from(writtenByParents.children)\n  writtenByParentsLetters.forEach((el) => {\n    if (!changedElements.includes(el)) {\n      el.classList.remove('yellowLetter')\n      el.classList.remove('redLetter')\n    }\n  })\n})\n\nconst populateWrittenByParents = () => {\n  parentsInput.value = parentsInput.value.trim()\n  let array = parentsInput.value.trim().split('')\n  let string = ''\n  childsInput.value = ''\n  childsInput.dispatchEvent(new Event('input'))\n  array.forEach(function (letter, index) {\n    string = string + `<span id=parentInput${index}>${letter.toUpperCase()}</span>`\n  })\n  writtenByParents.innerHTML = string\n  childsInput.focus()\n}\n\nclearInputsButton.addEventListener('click', () => {\n  childsInput.value = ''\n  parentsInput.value = ''\n  writtenByKid.innerHTML = ''\n  writtenByParents.innerHTML = ''\n  parentsInput.focus()\n})\n\n\n//# sourceURL=webpack://learn-typing/./src/js/main.js?");
 
 /***/ }),
 
@@ -1017,6 +1072,17 @@ eval("module.exports = \"data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/20
 "use strict";
 eval("module.exports = \"data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 8 8%27%3e%3cpath fill=%27%23198754%27 d=%27M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z%27/%3e%3c/svg%3e\";\n\n//# sourceURL=webpack://learn-typing/data:image/svg+xml,%253csvg_xmlns=%2527http://www.w3.org/2000/svg%2527_viewBox=%25270_0_8_8%2527%253e%253cpath_fill=%2527%2523198754%2527_d=%2527M2.3_6.73.6_4.53c-.4-1.04.46-1.4_1.1-.8l1.1_1.4_3.4-3.8c.6-.63_1.6-.27_1.2.7l-4_4.6c-.43.5-.8.4-1.1.1z%2527/%253e%253c/svg%253e?");
 
+/***/ }),
+
+/***/ "./src/images/a.jpg":
+/*!**************************!*\
+  !*** ./src/images/a.jpg ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"69fc04bf3124edcbae80.jpg\";\n\n//# sourceURL=webpack://learn-typing/./src/images/a.jpg?");
+
 /***/ })
 
 /******/ 	});
@@ -1073,6 +1139,18 @@ eval("module.exports = \"data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/20
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -1087,6 +1165,26 @@ eval("module.exports = \"data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/20
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
