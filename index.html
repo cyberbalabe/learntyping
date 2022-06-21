@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MOKOMĖS RAŠYTI</title>
+    <title>MOKAUSI RAŠYTI KLAVIATŪRA</title>
   </head>
   <body>
     <canvas id="confeti"></canvas>
@@ -16,13 +16,30 @@
       </div>
     
       <div class="mt-2">
-        <textarea id="childsInput"  placeholder="ČIA RAŠO VAIKAS" rows="4"></textarea>
-        <textarea id="parentsInput"  placeholder="ČIA RAŠO TĖVELIAI" autofocus rows="4"></textarea>
+        <label for="childsInput">Čia rašo vaikas</label>
+        <textarea id="childsInput" rows="4"></textarea>
+        <label for="parentsInput">Įrašykite norimą tekstą</label>
+        <textarea id="parentsInput" autofocus rows="4"></textarea>
       </div>
       <div>
-        <button type="button" id="pushMe" class="btn btn-primary btn-sm">Įkelti tekstą</button>
-        <button type="button" id="clearInputsButton" class="btn btn-success btn-sm">Viską ištrinti</button>
-        <button type="button" id="instructionButton" class="btn btn-info btn-sm float-end">Instrukcija</button>
+        <button type="button" id="pushMe" class="btn btn-warning btn-sm">Įkelti tekstą aukštyn</button>
+        <button type="button" id="clearInputsButton" class="btn btn-danger btn-sm">Viską ištrinti</button>
+        <button type="button" id="infoButton" class="btn btn-secondary btn-sm" 
+            data-bs-container="body" 
+            data-bs-toggle="popover" 
+            data-bs-html="true"
+            data-bs-placement="right" 
+            data-bs-content='
+            <ul>
+                <li>įrašykite norimą tekstą</li>
+                <li>paspauskite mygtuką "Įkelti tekstą aukštyn</li>
+                <li>vaikas perrašinėja tekstą, jei teisingai - raidės nuspalvinamos geltonai, jei ne - raudonai</li>
+                <li>teisingai perrašius visą tekstą, pasirodo konfeti, pagyrimo - padrąsinimo langelis ir smagus paveikslėlis</li>
+                <li>norint išvalyti langelius, spauskite "Viską ištrinti"</li>
+            </ul>
+            '>
+          Kaip naudotis?
+        </button>
 
       </div>
     </div>

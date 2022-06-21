@@ -3,7 +3,7 @@
 }
 
 .redLetter {
-    background: #FFF5EE;
+    background: red;
 }
 
 #writtenByParents {
@@ -14,7 +14,7 @@
     border-color: #9370DB!important;
 }
 h1 {
-    background-color: white;
+    background-color: #F0FFFF;
     min-height: 120px;
     white-space: pre-wrap;
     word-spacing: 1.1rem;
@@ -27,9 +27,14 @@ textarea {
     background: #FFFAF0;
 }
 
+label {
+    font-family:Comic Sans MS;
+    color: purple;
+}
+
 p {
     margin-top: 30px;
-    font-family: "Courier New", Courier, monospace;
+    font-family:Comic Sans MS;
     text-align: center;
     color: purple;
     word-spacing: 6px;
@@ -38,7 +43,7 @@ p {
 
 body {
     background: #F0FFFF;
-    background-image: url("../images/a.jpg");
+    background-image: url("../images/sky.jpg");
 }
 #allTables {
     margin-left: 120px!important;
@@ -54,7 +59,7 @@ body {
     /* z-index: 2; */
     position: relative;
 }
-
-
-
+#infoButton {
+    float: right;
+}
 

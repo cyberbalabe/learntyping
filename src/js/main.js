@@ -1,11 +1,10 @@
 import ConfettiGenerator from 'confetti-js'
 import Swal from 'sweetalert2'
-import treesImage from '../images/trees.png'
-//import booksBackground from '../images/booksBackground.png'
 import nyanCat from '../images/nyan-cat.gif'
 import cakeImage from '../images/cake.gif'
 import dancingBoy from '../images/dancingBoy.gif'
 import typingCats from '../images/typingCats.gif'
+import enablePopovers from './popovers';
 
 let parentsInput = document.getElementById('parentsInput')
 let button = document.getElementById('button')
@@ -30,6 +29,8 @@ let confettiSettings = {
 }
 let confetti = new ConfettiGenerator(confettiSettings)
 
+enablePopovers();
+
 const isMobileUser = () => {
   return screen.width <= 640
 }
@@ -37,7 +38,7 @@ const isMobileUser = () => {
 if (isMobileUser()) {
   Swal.fire({
     title: 'Pardon!',
-    text: 'if you want continue open your computer',
+    text: 'Deja, programėlė skirta naudotis tik kompiuteriu',
     icon: 'error',
     showConfirmButton: false,
     allowOutsideClick: false,
@@ -89,7 +90,7 @@ childsInput.addEventListener('input', (el) => {
       width: 600,
       padding: '3em',
       color: '#716add',
-      background: `#fff url(${treesImage})`,
+      //background: `#fff url(${treesImage})`,
       backdrop: `
         rgba(0,0,123,0.4)
         url(${gifArray[randomGifIndex]})
