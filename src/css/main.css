@@ -42,8 +42,8 @@ p {
 }
 
 body {
-    background: #F0FFFF;
     background-image: url("../images/sky2.jpg");
+    background-size: cover;
 }
 #allTables {
     margin-left: 120px!important;
