@@ -18,7 +18,7 @@ let congratulationsArray = [
   'PUIKUMĖLIS! ;)',
   'DUOK PENKIS! ;)',
   'TIRLI PIRLI KAIP ŠAUNU!',
-  'TAIP IR TOLIAU, BROLYTI;)'
+  'TAIP IR TOLIAU!;)'
 ]
 let gifArray = [nyanCat, cakeImage, dancingBoy, typingCats]
 
